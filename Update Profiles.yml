@@ -1,0 +1,21 @@
+info:
+  name: Update Profiles
+  type: http
+  seq: 5
+
+http:
+  method: PATCH
+  url: http://localhost:8080/api/profile/update-profile/71cefa7d-be16-469e-bcf3-c0a1012a1c67
+  body:
+    type: json
+    data: |-
+      {
+        "first_name": "Jenish"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
