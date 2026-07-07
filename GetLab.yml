@@ -1,0 +1,32 @@
+info:
+  name: GetLab
+  type: http
+  seq: 8
+
+http:
+  method: GET
+  url: http://localhost:8080/api/lab/get/da0f3b8b-1235-49c4-a647-8f3c03f2cf18
+  headers:
+    - name: auth
+      value: beare asjkdfh
+  body:
+    type: json
+    data: |-
+      {
+        "lab_name": "Jenish Path Lab",
+       "tagline": "Check your blood",
+        "address":  "Baneshowr",
+        "phone":  "9808766817",
+        "email":  "jenish@gmail.com",
+        "registration_no":  "11223344",
+        "report_footer":  "Come to check it"
+      }
+  auth:
+    type: bearer
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3ODcwMDMzMTUsInJvbGVfbmFtZSI6IlJPTEVfVEVDSE5JQ0lBTiIsInNlc3Npb25faWQiOiIxOGFjYThlMi02OGZjLTQ1NWQtOThmYy0yZmJhZjU5NGQxZDgiLCJ1c2VyX2lkIjoiNTlmYWRkMmYtNzNkZC00MDBiLWJjNTktZDRhYjZkMDRjZjAyIn0._4tobX0fLd0NJnDdFTCqMTHoOHlUxeiSkm4l6pc-g9w
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
