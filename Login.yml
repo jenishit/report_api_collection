@@ -6,14 +6,18 @@ info:
 http:
   method: POST
   url: http://localhost:8080/api/auth/login
+  headers:
+    - name: auth
+      value: beare asjkdfh
   body:
     type: json
     data: |-
       {
-        "email": "ROLE_TECHNICIAN",
-        "password": "password"
+        "email": "jenish.brainztech@gmail.com",
+        "password": "jenish@123"
       }
-  auth: inherit
+  auth:
+    type: bearer
 
 settings:
   encodeUrl: true

@@ -12,9 +12,9 @@ http:
       {
         "first_name": "John",
         "last_name": "Doe",
-        "email": "john.doe@example.com",
-        "password": "StrongPassword123!",
-        "phone": "15551234567",
+        "email": "jenish.brainztech@gmail.com",
+        "password": "jenish@123",
+        "phone": "9866419059",
         "role_name": "ROLE_TECHNICIAN"
       }
   auth: inherit
