@@ -5,12 +5,13 @@ info:
 
 http:
   method: POST
-  url: http://localhost:8080/api/role/create
+  url: http://localhost:8080/api/auth/login
   body:
     type: json
     data: |-
       {
-        "role_name": "ROLE_TECHNICIAN"
+        "email": "ROLE_TECHNICIAN",
+        "password": "password"
       }
   auth: inherit
 
