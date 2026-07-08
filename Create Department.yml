@@ -1,0 +1,27 @@
+info:
+  name: Create Department
+  type: http
+  seq: 10
+
+http:
+  method: POST
+  url: http://localhost:8080/api/lab-test/create-department
+  headers:
+    - name: auth
+      value: beare asjkdfh
+  body:
+    type: json
+    data: |-
+      {
+        "dept_name": "Hematology",
+        "dept_description": "Here different bio chemistry tests are grouped"
+      }
+  auth:
+    type: bearer
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3ODcwMDMzMTUsInJvbGVfbmFtZSI6IlJPTEVfVEVDSE5JQ0lBTiIsInNlc3Npb25faWQiOiIxOGFjYThlMi02OGZjLTQ1NWQtOThmYy0yZmJhZjU5NGQxZDgiLCJ1c2VyX2lkIjoiNTlmYWRkMmYtNzNkZC00MDBiLWJjNTktZDRhYjZkMDRjZjAyIn0._4tobX0fLd0NJnDdFTCqMTHoOHlUxeiSkm4l6pc-g9w
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
