@@ -1,0 +1,4 @@
+name: Base env
+variables:
+  - name: base_url
+    value: http://192.168.1.90:8080/api
