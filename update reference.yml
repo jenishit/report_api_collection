@@ -1,11 +1,11 @@
 info:
   name: update reference
   type: http
-  seq: 26
+  seq: 25
 
 http:
   method: PATCH
-  url: http://localhost:8080/api/lab-test/update-reference
+  url: http://localhost:8080/api/admin/lab-test/update-reference
   headers:
     - name: auth
       value: beare asjkdfh

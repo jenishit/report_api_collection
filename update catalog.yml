@@ -1,11 +1,11 @@
 info:
   name: update catalog
   type: http
-  seq: 24
+  seq: 22
 
 http:
   method: PATCH
-  url: http://localhost:8080/api/lab-test/update-panel
+  url: http://localhost:8080/api/admin/lab-test/update-catalog
   headers:
     - name: auth
       value: beare asjkdfh
@@ -13,13 +13,13 @@ http:
     type: json
     data: |-
       {
-        "parameter_id": "6de50725-532e-4470-9bcf-f78856c35383",
-        "gender": "M",
-        "min_age": 18,
-        "max_age": 80,
-        "min_value": 4000,
-        "max_value": 10000,
-        "text)value": ""
+        "id": "9370dafe-75a5-4bae-b1c5-a3e4cf430c4f",
+            "test_name": "Total Counts",
+            "dept_id": "9fe6fd10-12a8-4c99-9505-c7714127a44b",
+            "test_code": "TC",
+            "test_price": 100,
+            "sample_type": "WHOLE_BLOOD",
+            "turnaround_time": 3
       }
   auth:
     type: bearer

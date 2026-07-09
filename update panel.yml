@@ -1,11 +1,11 @@
 info:
   name: update panel
   type: http
-  seq: 23
+  seq: 21
 
 http:
   method: PATCH
-  url: http://localhost:8080/api/lab-test/update-department
+  url: http://localhost:8080/api/admin/lab-test/update-panel
   headers:
     - name: auth
       value: beare asjkdfh
@@ -13,13 +13,9 @@ http:
     type: json
     data: |-
       {
-        "parameter_id": "6de50725-532e-4470-9bcf-f78856c35383",
-        "gender": "M",
-        "min_age": 18,
-        "max_age": 80,
-        "min_value": 4000,
-        "max_value": 10000,
-        "text)value": ""
+        "id": "216a4f62-bbe1-4391-be5a-1887dd86e7c5",
+        "dept_id": "12ea2c91-ed7e-4de6-9112-f2c55ddb54df",
+        "panel_name": "Complete Bloods Count"
       }
   auth:
     type: bearer

@@ -1,11 +1,11 @@
 info:
   name: Get catalog by Dept ID
   type: http
-  seq: 18
+  seq: 16
 
 http:
   method: GET
-  url: http://localhost:8080/api/lab-test/list-catalog/12ea2c91-ed7e-4de6-9112-f2c55ddb54df
+  url: http://localhost:8080/api/admin/lab-test/list-catalog/9fe6fd10-12a8-4c99-9505-c7714127a44b
   headers:
     - name: auth
       value: beare asjkdfh

@@ -1,11 +1,11 @@
 info:
   name: update test parameter
   type: http
-  seq: 25
+  seq: 23
 
 http:
   method: PATCH
-  url: http://localhost:8080/api/lab-test/update-test-parameter
+  url: http://localhost:8080/api/admin/lab-test/update-test-parameter
   headers:
     - name: auth
       value: beare asjkdfh
@@ -14,11 +14,11 @@ http:
     data: |-
       {
         "id": "6de50725-532e-4470-9bcf-f78856c35383",
-            "test_name": "9370dafe-75a5-4bae-b1c5-a3e4cf430c4f",
-            "parameter_name": "Cell Count",
+            "test_id": "9370dafe-75a5-4bae-b1c5-a3e4cf430c4f",
+            "parameter_name": "Cell Counts",
             "unit": "cells/µL",
             "result_type": "numeric",
-            "sequence_no": 1
+            "sequence_no": 2
       }
   auth:
     type: bearer
