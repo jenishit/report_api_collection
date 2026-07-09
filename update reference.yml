@@ -1,0 +1,32 @@
+info:
+  name: update reference
+  type: http
+  seq: 26
+
+http:
+  method: PATCH
+  url: http://localhost:8080/api/lab-test/update-reference
+  headers:
+    - name: auth
+      value: beare asjkdfh
+  body:
+    type: json
+    data: |-
+      {
+        "ref_id": "1f5edf9a-9925-4a75-8690-696c5f512e43",
+            "parameter_id": "6de50725-532e-4470-9bcf-f78856c35383",
+            "gender": "F",
+            "age": "18-80",
+            "value": "4000-10000",
+            "text_range": "",
+            "note": ""
+      }
+  auth:
+    type: bearer
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3ODcwMDMzMTUsInJvbGVfbmFtZSI6IlJPTEVfVEVDSE5JQ0lBTiIsInNlc3Npb25faWQiOiIxOGFjYThlMi02OGZjLTQ1NWQtOThmYy0yZmJhZjU5NGQxZDgiLCJ1c2VyX2lkIjoiNTlmYWRkMmYtNzNkZC00MDBiLWJjNTktZDRhYjZkMDRjZjAyIn0._4tobX0fLd0NJnDdFTCqMTHoOHlUxeiSkm4l6pc-g9w
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

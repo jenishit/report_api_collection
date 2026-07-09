@@ -1,0 +1,32 @@
+info:
+  name: Get reference by test ID
+  type: http
+  seq: 21
+
+http:
+  method: GET
+  url: http://localhost:8080/api/lab-test/list-test-parameter
+  headers:
+    - name: auth
+      value: beare asjkdfh
+  body:
+    type: json
+    data: |-
+      {
+        "parameter_id": "6de50725-532e-4470-9bcf-f78856c35383",
+        "gender": "M",
+        "min_age": 18,
+        "max_age": 80,
+        "min_value": 4000,
+        "max_value": 10000,
+        "text)value": ""
+      }
+  auth:
+    type: bearer
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3ODcwMDMzMTUsInJvbGVfbmFtZSI6IlJPTEVfVEVDSE5JQ0lBTiIsInNlc3Npb25faWQiOiIxOGFjYThlMi02OGZjLTQ1NWQtOThmYy0yZmJhZjU5NGQxZDgiLCJ1c2VyX2lkIjoiNTlmYWRkMmYtNzNkZC00MDBiLWJjNTktZDRhYjZkMDRjZjAyIn0._4tobX0fLd0NJnDdFTCqMTHoOHlUxeiSkm4l6pc-g9w
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
