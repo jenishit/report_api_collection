@@ -5,7 +5,7 @@ info:
 
 http:
   method: POST
-  url: http://localhost:8080/api/lab-test/create-department
+  url: "{{base_url}}/admin/lab-test/create-department"
   headers:
     - name: auth
       value: beare asjkdfh
@@ -13,12 +13,12 @@ http:
     type: json
     data: |-
       {
-        "dept_name": "Hematology",
-        "dept_description": "Here different bio chemistry tests are grouped"
+        "dept_name": "Urinology",
+        "dept_description": "Urine department"
       }
   auth:
     type: bearer
-    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3ODcwMDMzMTUsInJvbGVfbmFtZSI6IlJPTEVfVEVDSE5JQ0lBTiIsInNlc3Npb25faWQiOiIxOGFjYThlMi02OGZjLTQ1NWQtOThmYy0yZmJhZjU5NGQxZDgiLCJ1c2VyX2lkIjoiNTlmYWRkMmYtNzNkZC00MDBiLWJjNTktZDRhYjZkMDRjZjAyIn0._4tobX0fLd0NJnDdFTCqMTHoOHlUxeiSkm4l6pc-g9w
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3ODcxNzkwNTYsInJvbGVfbmFtZSI6IlJPTEVfQURNSU4iLCJzZXNzaW9uX2lkIjoiNWE4NTVkYjItMDE5ZC00ZjBiLThiZmItNDlkMWQxYWZhZmU4IiwidXNlcl9pZCI6IjY3YzZmZGQ4LWExMWEtNDIxYy04MWZhLWRhY2NjNzIxOTE3NiJ9.4pGoCa_POI3GHpS_FsSlXE8wUkbY_2Jerba48g7Duw4
 
 settings:
   encodeUrl: true

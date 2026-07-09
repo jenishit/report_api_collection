@@ -5,17 +5,17 @@ info:
 
 http:
   method: POST
-  url: http://localhost:8080/api/user/create
+  url: "{{base_url}}/user/create"
   body:
     type: json
     data: |-
       {
-        "first_name": "John",
+        "first_name": "Jenish",
         "last_name": "Doe",
-        "email": "jenish.brainztech@gmail.com",
+        "email": "jenish.admin@gmail.com",
         "password": "jenish@123",
-        "phone": "9866419059",
-        "role_name": "ROLE_TECHNICIAN"
+        "phone": "9866419050",
+        "role_name": "ROLE_ADMIN"
       }
   auth: inherit
 

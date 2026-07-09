@@ -5,7 +5,7 @@ info:
 
 http:
   method: PATCH
-  url: http://localhost:8080/api/admin/lab-test/update-test-parameter
+  url: "{{base_url}}/admin/lab-test/update-test-parameter"
   headers:
     - name: auth
       value: beare asjkdfh

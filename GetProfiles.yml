@@ -5,7 +5,7 @@ info:
 
 http:
   method: GET
-  url: http://localhost:8080/api/profile/profile-details
+  url: "{{base_url}}/admin/profile/profile-details"
   body:
     type: json
     data: ""

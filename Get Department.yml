@@ -5,7 +5,7 @@ info:
 
 http:
   method: GET
-  url: http://localhost:8080/api/admin/lab-test/list-department
+  url: "{{base_url}}/lab-test/list-department"
   headers:
     - name: auth
       value: beare asjkdfh

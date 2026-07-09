@@ -5,12 +5,12 @@ info:
 
 http:
   method: POST
-  url: http://localhost:8080/api/role/create
+  url: "{{base_url}}/role/create"
   body:
     type: json
     data: |-
       {
-        "role_name": "ROLE_TECHNICIAN"
+        "role_name": "ROLE_PATIENT"
       }
   auth: inherit
 

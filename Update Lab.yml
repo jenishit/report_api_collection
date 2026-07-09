@@ -5,7 +5,7 @@ info:
 
 http:
   method: PATCH
-  url: http://localhost:8080/api/lab/update/da0f3b8b-1235-49c4-a647-8f3c03f2cf18
+  url: "{{base_url}}/admin/lab/da0f3b8b-1235-49c4-a647-8f3c03f2cf18"
   headers:
     - name: auth
       value: beare asjkdfh

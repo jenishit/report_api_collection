@@ -5,7 +5,7 @@ info:
 
 http:
   method: GET
-  url: http://localhost:8080/api/admin/lab-test/list-reference/6de50725-532e-4470-9bcf-f78856c35383
+  url: "{{base_url}}/lab-test/list-reference/6de50725-532e-4470-9bcf-f78856c35383"
   headers:
     - name: auth
       value: beare asjkdfh
