@@ -5,7 +5,7 @@ info:
 
 http:
   method: GET
-  url: "{{base_url}}/doctor/9aba2669-9b1a-4c09-99bd-be0bd05128d9"
+  url: "{{base_url}}/patient/70377e33-d10d-4ed0-b939-a29f2a15f838"
   headers:
     - name: auth
       value: beare asjkdfh

@@ -15,11 +15,11 @@ http:
     data: |-
       {
         "first_name": "Jenish",
-      "last_name": "Shrestha",
-      "email": "jenish@gmail.com",
-      "phone": "9808766817",
-      "mrn": "1",
-      "dob": "2000-05-21",
+        "last_name": "Shrestha",
+        "email": "jenish@gmail.com",
+        "phone": "9808766817",
+        "mrn": "1",
+        "dob": "2000-05-21",
         "gender": "M",
         "address": "Thankot"
       }

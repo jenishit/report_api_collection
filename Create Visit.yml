@@ -5,7 +5,7 @@ info:
 
 http:
   method: POST
-  url: "{{base_url}}/patient"
+  url: "{{base_url}}/visit"
   headers:
     - name: auth
       value: beare asjkdfh
@@ -14,14 +14,10 @@ http:
     type: json
     data: |-
       {
-        "first_name": "Jenish",
-        "last_name": "Shrestha",
-        "email": "jenish@gmail.com",
-        "phone": "9808766817",
-        "mrn": "1",
-        "dob": "2000-05-21",
-        "gender": "M",
-        "address": "Thankot"
+        "visit_no": "1",
+        "patient_id": "1504f67e-d23d-4604-a536-961ee316a925",
+        
+        "status": "registered"
       }
   auth:
     type: bearer

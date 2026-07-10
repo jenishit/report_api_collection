@@ -5,7 +5,7 @@ info:
 
 http:
   method: PATCH
-  url: "{{base_url}}/admin/doctor/9aba2669-9b1a-4c09-99bd-be0bd05128d9"
+  url: "{{base_url}}/patient/70377e33-d10d-4ed0-b939-a29f2a15f838"
   headers:
     - name: auth
       value: beare asjkdfh
@@ -15,11 +15,13 @@ http:
     data: |-
       {
         "first_name": "Jenisha",
-      "last_name": "Shrestha",
-      "email": "jenisha@gmail.com",
-      "phone": "9808766817",
-      "qualification": "MD in General",
-      "registration_no": "11223344"
+        "last_name": "Shrestha",
+        "email": "jenisha@gmail.com",
+        "phone": "9808766817",
+        "mrn": "1",
+        "dob": "2000-05-21",
+        "gender": "F",
+        "address": "Thankot"
       }
   auth:
     type: bearer
