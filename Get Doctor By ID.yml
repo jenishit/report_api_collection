@@ -1,0 +1,24 @@
+info:
+  name: Get Doctor By ID
+  type: http
+  seq: 30
+
+http:
+  method: GET
+  url: "{{base_url}}/doctor/9aba2669-9b1a-4c09-99bd-be0bd05128d9"
+  headers:
+    - name: auth
+      value: beare asjkdfh
+      disabled: true
+  body:
+    type: json
+    data: ""
+  auth:
+    type: bearer
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3ODcxNzkwNTYsInJvbGVfbmFtZSI6IlJPTEVfQURNSU4iLCJzZXNzaW9uX2lkIjoiNWE4NTVkYjItMDE5ZC00ZjBiLThiZmItNDlkMWQxYWZhZmU4IiwidXNlcl9pZCI6IjY3YzZmZGQ4LWExMWEtNDIxYy04MWZhLWRhY2NjNzIxOTE3NiJ9.4pGoCa_POI3GHpS_FsSlXE8wUkbY_2Jerba48g7Duw4
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

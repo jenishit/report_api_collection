@@ -9,16 +9,22 @@ http:
   headers:
     - name: auth
       value: beare asjkdfh
+      disabled: true
   body:
     type: json
     data: |-
       {
-        "email": "jenish.brainztech@gmail.com",
-        "password": "jenish@123"
+        "lab_name": "Jish Path Lab",
+       "tagline": "Check your blood",
+        "address":  "Baneshowr",
+        "phone":  "9807766817",
+        "email":  "jish@gmail.com",
+        "registration_no":  "11900344",
+        "report_footer":  "Come to check it"
       }
   auth:
     type: bearer
-    token: ""
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3ODcxOTQwOTYsInJvbGVfbmFtZSI6IlJPTEVfQURNSU4iLCJzZXNzaW9uX2lkIjoiZmYwZTM4OGEtNjY5NS00NGI5LWEwYTMtZWY4NWNmOTU4ODkwIiwidXNlcl9pZCI6IjY3YzZmZGQ4LWExMWEtNDIxYy04MWZhLWRhY2NjNzIxOTE3NiJ9.A3F-B2V0YSay5qGH1cinaWW1o-RlMrVCHr54AVNkf7A
 
 settings:
   encodeUrl: true
