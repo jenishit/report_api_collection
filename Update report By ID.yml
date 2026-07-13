@@ -1,18 +1,21 @@
 info:
-  name: Get Visits By ID
+  name: Update report By ID
   type: http
-  seq: 37
+  seq: 50
 
 http:
-  method: GET
-  url: "{{base_url}}/visit/f2a3eb06-211c-4715-8ab5-1bc7864420a3"
+  method: PATCH
+  url: "{{base_url}}/report/129a7693-8af2-4ad6-98d0-e1daab36adf9"
   headers:
     - name: auth
       value: beare asjkdfh
       disabled: true
   body:
     type: json
-    data: ""
+    data: |-
+      {
+        "status": "final"
+      }
   auth:
     type: bearer
     token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3ODcxNzkwNTYsInJvbGVfbmFtZSI6IlJPTEVfQURNSU4iLCJzZXNzaW9uX2lkIjoiNWE4NTVkYjItMDE5ZC00ZjBiLThiZmItNDlkMWQxYWZhZmU4IiwidXNlcl9pZCI6IjY3YzZmZGQ4LWExMWEtNDIxYy04MWZhLWRhY2NjNzIxOTE3NiJ9.4pGoCa_POI3GHpS_FsSlXE8wUkbY_2Jerba48g7Duw4

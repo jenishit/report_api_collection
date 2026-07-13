@@ -1,11 +1,11 @@
 info:
-  name: Get Visits By ID
+  name: Get result By ID
   type: http
-  seq: 37
+  seq: 45
 
 http:
   method: GET
-  url: "{{base_url}}/visit/f2a3eb06-211c-4715-8ab5-1bc7864420a3"
+  url: "{{base_url}}/result/8e30ff37-7ccc-489b-9fa1-a1c219926665"
   headers:
     - name: auth
       value: beare asjkdfh

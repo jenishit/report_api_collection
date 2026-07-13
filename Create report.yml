@@ -1,0 +1,42 @@
+info:
+  name: Create report
+  type: http
+  seq: 48
+
+http:
+  method: POST
+  url: "{{base_url}}/result"
+  headers:
+    - name: auth
+      value: beare asjkdfh
+      disabled: true
+  body:
+    type: json
+    data: |-
+      {
+        "order_id": "82b675d6-5e36-49e3-9a01-dad7a90648cd",
+        "verified_by": "00000000-0000-0000-0000-000000000000",
+        "results": [
+          {
+            "parameter_id": "39d57cc6-88fb-45c8-ad1a-cb882af4d45c",
+            "result_value": "5.2",
+            "flag": "normal",
+            "remarks": "Within normal limits"
+          },
+          {
+            "parameter_id": "5a84cc48-f803-40e4-8f35-1c851a18cdef",
+            "result_value": "12",
+            "flag": "normal",
+            "remarks": ""
+          }
+        ]
+      }
+  auth:
+    type: bearer
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3ODcxNzkwNTYsInJvbGVfbmFtZSI6IlJPTEVfQURNSU4iLCJzZXNzaW9uX2lkIjoiNWE4NTVkYjItMDE5ZC00ZjBiLThiZmItNDlkMWQxYWZhZmU4IiwidXNlcl9pZCI6IjY3YzZmZGQ4LWExMWEtNDIxYy04MWZhLWRhY2NjNzIxOTE3NiJ9.4pGoCa_POI3GHpS_FsSlXE8wUkbY_2Jerba48g7Duw4
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

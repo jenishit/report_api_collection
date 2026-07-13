@@ -1,11 +1,11 @@
 info:
-  name: Get Visits By ID
+  name: Get report By ID
   type: http
-  seq: 37
+  seq: 49
 
 http:
   method: GET
-  url: "{{base_url}}/visit/f2a3eb06-211c-4715-8ab5-1bc7864420a3"
+  url: "{{base_url}}/report/129a7693-8af2-4ad6-98d0-e1daab36adf9"
   headers:
     - name: auth
       value: beare asjkdfh
