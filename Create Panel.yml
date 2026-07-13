@@ -5,7 +5,7 @@ info:
 
 http:
   method: POST
-  url: "{{base_url}}/admin/lab-test/create-department"
+  url: "{{base_url}}/admin/lab-test/create-panel"
   headers:
     - name: auth
       value: beare asjkdfh
