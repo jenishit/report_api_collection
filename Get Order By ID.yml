@@ -5,7 +5,7 @@ info:
 
 http:
   method: GET
-  url: "{{base_url}}/visit/f2a3eb06-211c-4715-8ab5-1bc7864420a3"
+  url: "{{base_url}}/order/82b675d6-5e36-49e3-9a01-dad7a90648cd"
   headers:
     - name: auth
       value: beare asjkdfh

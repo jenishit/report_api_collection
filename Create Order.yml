@@ -5,7 +5,7 @@ info:
 
 http:
   method: POST
-  url: "{{base_url}}/visit"
+  url: "{{base_url}}/order"
   headers:
     - name: auth
       value: beare asjkdfh
@@ -14,10 +14,11 @@ http:
     type: json
     data: |-
       {
-        "visit_no": "1",
-        "patient_id": "1504f67e-d23d-4604-a536-961ee316a925",
-        
-        "status": "registered"
+        "visit_id": "f2a3eb06-211c-4715-8ab5-1bc7864420a3",
+        "test_id": "efa68d00-b870-4ab9-9bea-5879c3043a13",
+        "panel_id": "d0d7577c-2041-4ecd-ab20-3fef5700b63d",
+        "price": 500,
+        "status": "collected"
       }
   auth:
     type: bearer

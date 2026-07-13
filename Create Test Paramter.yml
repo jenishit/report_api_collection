@@ -13,12 +13,15 @@ http:
     type: json
     data: |-
       {
-        "dept_name": "Hematology",
-        "dept_description": "Here different bio chemistry tests are grouped"
-      }
+          "test_id": "efa68d00-b870-4ab9-9bea-5879c3043a13",
+          "parameter_name": "Hb",
+          "unit": "million/uL",
+          "result_type": "numeric",
+          "sequence_no": 2
+        }
   auth:
     type: bearer
-    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3ODcwMDMzMTUsInJvbGVfbmFtZSI6IlJPTEVfVEVDSE5JQ0lBTiIsInNlc3Npb25faWQiOiIxOGFjYThlMi02OGZjLTQ1NWQtOThmYy0yZmJhZjU5NGQxZDgiLCJ1c2VyX2lkIjoiNTlmYWRkMmYtNzNkZC00MDBiLWJjNTktZDRhYjZkMDRjZjAyIn0._4tobX0fLd0NJnDdFTCqMTHoOHlUxeiSkm4l6pc-g9w
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3ODc1MjY0NTUsInJvbGVfbmFtZSI6IlJPTEVfQURNSU4iLCJzZXNzaW9uX2lkIjoiZjMxOGQ1MTYtZjQ2NS00NTI5LThhZDItNTgwMDI2ZDY2M2ViIiwidXNlcl9pZCI6IjY3YzZmZGQ4LWExMWEtNDIxYy04MWZhLWRhY2NjNzIxOTE3NiJ9.9OfqfAqTjMKyhElmB3K1eQzw-F-rAQGgJMBOmHhf9RE
 
 settings:
   encodeUrl: true
