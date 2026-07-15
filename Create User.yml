@@ -5,7 +5,7 @@ info:
 
 http:
   method: POST
-  url: "{{base_url}}/user/create"
+  url: "{{base_url}}/admin/user/create"
   body:
     type: json
     data: |-
