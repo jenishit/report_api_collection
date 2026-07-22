@@ -14,7 +14,7 @@ http:
     data: |2-
        {
           "panel_id": "d0d7577c-2041-4ecd-ab20-3fef5700b63d",
-          "test_id": "efa68d00-b870-4ab9-9bea-5879c3043a13",
+          "test_id": "0e345ad9-910c-4c9b-b861-dac01620a505",
           "sequence_no": 1
         }
   auth:

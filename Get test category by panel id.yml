@@ -1,11 +1,14 @@
 info:
-  name: GetME
+  name: Get test category by panel id
   type: http
-  seq: 4
+  seq: 55
 
 http:
   method: GET
-  url: "{{base_url}}/profile/getme"
+  url: "{{base_url}}/lab-test/list-catalog-by-panel/d0d7577c-2041-4ecd-ab20-3fef5700b63d"
+  headers:
+    - name: auth
+      value: beare asjkdfh
   body:
     type: json
     data: ""
