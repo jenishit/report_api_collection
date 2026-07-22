@@ -1,5 +1,5 @@
 info:
-  name: Get test category by panel id
+  name: Get test catalog by panel id
   type: http
   seq: 55
 
