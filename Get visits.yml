@@ -1,0 +1,23 @@
+info:
+  name: Get visits
+  type: http
+  seq: 56
+
+http:
+  method: GET
+  url: "{{base_url}}/lab-test/list-catalog-by-panel/d0d7577c-2041-4ecd-ab20-3fef5700b63d"
+  headers:
+    - name: auth
+      value: beare asjkdfh
+  body:
+    type: json
+    data: ""
+  auth:
+    type: bearer
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3ODcwMDMzMTUsInJvbGVfbmFtZSI6IlJPTEVfVEVDSE5JQ0lBTiIsInNlc3Npb25faWQiOiIxOGFjYThlMi02OGZjLTQ1NWQtOThmYy0yZmJhZjU5NGQxZDgiLCJ1c2VyX2lkIjoiNTlmYWRkMmYtNzNkZC00MDBiLWJjNTktZDRhYjZkMDRjZjAyIn0._4tobX0fLd0NJnDdFTCqMTHoOHlUxeiSkm4l6pc-g9w
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
